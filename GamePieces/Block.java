@@ -1,5 +1,5 @@
 /* This class represents a Block. All entities on the board are derived from this class. */
-
+package GameLogic;
 public class Block {
 	
 	//Variable declaration
