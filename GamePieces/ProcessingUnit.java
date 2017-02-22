@@ -15,21 +15,21 @@ public class ProcessingUnit extends Immovable {
 	//Returns an array containing all of the coordinate pairs the block occupies. (in [x,y,x,y])
 	public int[] getCoordinates() {
 		int[] xys = new int[4];
-		xys[0] = x;
-		xys[1] = y;
+		xys[0] = getX();
+		xys[1] = getY();
 		
 		switch (direction) {
-			case NORTH: xys[2] = x;
-						xys[3] = y++;
+			case NORTH: xys[2] = getX();
+						xys[3] = getY()+1;
 						break;
-			case SOUTH: xys[2] = x;
-						xys[3] = y--;
+			case SOUTH: xys[2] = getX();
+						xys[3] = getY()-1;
 						break;
-			case EAST:  xys[2] = x--;
-						xys[3] = y;
+			case EAST:  xys[2] = getX()-1;
+						xys[3] = getY();
 						break;
-			case WEST:  xys[2] = x++;
-						xys[3] = y;
+			case WEST:  xys[2] = getX()+1;
+						xys[3] = getY();
 						break;
 			default:	break;	
 		} return xys;
