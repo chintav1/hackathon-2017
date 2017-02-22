@@ -1,6 +1,6 @@
 /* This class represents a conveyor component. 
  * Overlapping is currently in Wire/Conveyor instead of Component in case we have more components later. */
-
+package GameLogic;
 public class Conveyor extends Component {
 	
 	//Variable declarations
