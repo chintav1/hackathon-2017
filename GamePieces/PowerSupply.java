@@ -15,37 +15,37 @@ public class PowerSupply extends Immovable {
 	//Returns an array containing all the coordinate pairs the block occupies. (in [x,y,x,y,x,y,x,y])
 	public int[] getCoordinates() {
 		int[] xys = new int[8];
-		xys[0] = x;
-		xys[1] = y;
+		xys[0] = this.getX();
+		xys[1] = this.getY();
 		
 		switch (direction) {
-			case NORTH: xys[2] = x;
-						xys[3] = y++;
-						xys[4] = x++;
-						xys[5] = y;
-						xys[6] = x++;
-						xys[7] = y++;
+			case NORTH: xys[2] = this.getX();
+						xys[3] = this.getY()+1;
+						xys[4] = this.getX()+1;
+						xys[5] = this.getY();
+						xys[6] = this.getX()+1;
+						xys[7] = this.getY()+1;
 						break;
-			case SOUTH: xys[2] = x;
-						xys[3] = y--;
-						xys[4] = x--;
-						xys[5] = y;
-						xys[6] = x--;
-						xys[7] = y--;
+			case SOUTH: xys[2] = this.getX();
+						xys[3] = this.getY()-1;
+						xys[4] = this.getX()-1;
+						xys[5] = this.getY();
+						xys[6] = this.getX()-1;
+						xys[7] = this.getY()-1;
 						break;
-			case EAST:  xys[2] = x--;
-						xys[3] = y;
-						xys[4] = x;
-						xys[5] = y++;
-						xys[6] = x--;
-						xys[7] = y++;
+			case EAST:  xys[2] = this.getX()-1;
+						xys[3] = this.getY();
+						xys[4] = this.getX();
+						xys[5] = this.getY()+1;
+						xys[6] = this.getX()-1;
+						xys[7] = this.getY()+1;
 						break;
-			case WEST:  xys[2] = x++;
-						xys[3] = y;
-						xys[4] = x;
-						xys[5] = y--;
-						xys[6] = x++;
-						xys[7] = y--;
+			case WEST:  xys[2] = this.getX()+1;
+						xys[3] = this.getY();
+						xys[4] = this.getX();
+						xys[5] = this.getY()-1;
+						xys[6] = this.getX()+1;
+						xys[7] = this.getY()-1;
 						break;
 			default:	break;
 		} return xys;
@@ -53,14 +53,18 @@ public class PowerSupply extends Immovable {
 	
 	//Returns the block that actually makes the connection, where wire must be to get power.
 	public int[] getConnectionPoint() {
-		if (direction == NORTH) {
-			return [x, y--];
-		} else if (direction == SOUTH) {
-			return [x, y++];
-		} else if (direction == EAST) {
-			return [x++, y];
+		if (direction == Direction.NORTH) {
+			int[] array = {this.getX(), this.getY()-1};
+			return array;
+		} else if (direction == Direction.SOUTH) {
+			int[] array = {this.getX(), this.getY()+1};
+			return array;
+		} else if (direction == Direction.EAST) {
+			int[] array = {this.getX()+1, this.getY()};
+			return array;
 		} else {
-			return [x--, y];
+			int[] array = {this.getX()-1, this.getY()};
+			return array;
 		}
 	}
 	
