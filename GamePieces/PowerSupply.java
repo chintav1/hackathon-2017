@@ -1,5 +1,5 @@
 /* This class represents a Power supply object. */
-
+package GameLogic;
 public class PowerSupply extends Immovable {
 	
 	//Variable declaration
