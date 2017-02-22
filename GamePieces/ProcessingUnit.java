@@ -1,5 +1,5 @@
 /* This class represents a Processing unit object. */
-
+package GameLogic;
 public class ProcessingUnit extends Immovable {
 	
 	//Variable declaration.
