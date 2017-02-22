@@ -1,6 +1,6 @@
 /* This class represents a wire component. 
  * Overlapping is currently in Wire/Conveyor instead of Component in case we have more components later. */
-
+package GameLogic;
 public class Wire extends Component {
 	
 	//Variable declaration
