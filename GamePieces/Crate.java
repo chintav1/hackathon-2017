@@ -1,5 +1,5 @@
 /* This class represents a Crate object, which is an obstacle block. */
-
+package GameLogic;
 public class Crate extends Immovable {
 	
 	//Constructor takes in a coordinate pair and passes to parent.
