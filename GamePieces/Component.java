@@ -1,5 +1,5 @@
 /* This class represents the game pieces that the player can place. */
- 
+package GameLogic;
 public class Component extends Block {
 	
 	//Variable declaration
