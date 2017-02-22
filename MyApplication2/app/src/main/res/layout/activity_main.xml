@@ -1,0 +1,3701 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:id="@+id/fullscreen_content"
+
+    tools:context=".FullscreenGame" >
+
+    <!-- BEGINNING OF TABLE CONTAINER, THIS CONTAINS ALL OF THE ROWS
+    i.e. ROW1, ROW2, ROW3, ROW4, ROW5, ... , ROW12
+    EACH ROW IS A SEPERATE TABLEROW  -->
+
+    <TableLayout
+
+        android:id="@+id/Grid"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="0dp"
+
+        android:layout_weight="1"
+
+        android:background="#ffffff"
+
+        android:keepScreenOn="true" >
+
+        <!-- Row 1 -->
+
+        <TableRow
+
+            android:id="@+id/Row1"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:gravity="center">
+
+            <TextView
+
+                android:id="@+id/cell11"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell12"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell13"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell14"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell15"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell16"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell17"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell18"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell19"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell110"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell111"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell112"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+        </TableRow>
+
+        <!-- Row 2 -->
+        <TableRow
+
+            android:id="@+id/Row2"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:gravity="center">
+
+            <TextView
+
+                android:id="@+id/cell21"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell22"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell23"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell24"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell25"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell26"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell27"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell28"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell29"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell210"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell211"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell212"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+        </TableRow>
+
+        <!-- Row 3 -->
+
+        <TableRow
+
+            android:id="@+id/Row3"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:gravity="center">
+
+            <TextView
+
+                android:id="@+id/cell31"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell32"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell33"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell34"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell35"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell36"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell37"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell38"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell39"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell310"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell311"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell312"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+        </TableRow>
+
+        <!-- Row 4 -->
+
+        <TableRow
+
+            android:id="@+id/Row4"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:gravity="center">
+
+            <TextView
+
+                android:id="@+id/cell41"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell42"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell43"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell44"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell45"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell46"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell47"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell48"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell49"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell410"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell411"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell412"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+        </TableRow>
+
+        <!-- Row 5 -->
+        <TableRow
+
+            android:id="@+id/Row5"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:gravity="center">
+
+            <TextView
+
+                android:id="@+id/cell51"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell52"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell53"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell54"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell55"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell56"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell57"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell58"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell59"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell510"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell511"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell512"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+        </TableRow>
+
+
+        <!-- Row 6 -->
+        <TableRow
+
+            android:id="@+id/Row6"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:gravity="center">
+
+            <TextView
+
+                android:id="@+id/cell61"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell62"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell63"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell64"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell65"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell66"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell67"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell68"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell69"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell610"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell611"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell612"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+        </TableRow>
+
+        <!-- Row 7 -->
+        <TableRow
+
+            android:id="@+id/Row7"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:gravity="center">
+
+            <TextView
+
+                android:id="@+id/cell71"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell72"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell73"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell74"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell75"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell76"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell77"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell78"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell79"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell710"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell711"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell712"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+        </TableRow>
+
+        <!-- Row 8 -->
+        <TableRow
+
+            android:id="@+id/Row8"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:gravity="center">
+
+            <TextView
+
+                android:id="@+id/cell81"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell82"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell83"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell84"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell85"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell86"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell87"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell88"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell89"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell810"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell811"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell812"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+        </TableRow>
+
+
+        <!-- Row 9 -->
+        <TableRow
+
+            android:id="@+id/Row9"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:gravity="center">
+
+            <TextView
+
+                android:id="@+id/cell91"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell92"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell93"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell94"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell95"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell96"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell97"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell98"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell99"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell910"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell911"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell912"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+        </TableRow>
+
+
+        <!-- Row 10 -->
+        <TableRow
+
+            android:id="@+id/Row10"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:gravity="center">
+
+            <TextView
+
+                android:id="@+id/cell101"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell102"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell103"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell104"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell105"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell106"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell107"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell108"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell109"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell1010"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell1011"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell1012"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+        </TableRow>
+
+
+        <!-- Row 11 -->
+        <TableRow
+
+            android:id="@+id/Row11"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:gravity="center">
+
+            <TextView
+
+                android:id="@+id/cell111"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell112"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell113"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell114"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell115"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell116"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell117"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell118"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell119"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell1110"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell1111"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell1112"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+        </TableRow>
+
+
+        <!-- Row 12 -->
+        <TableRow
+
+            android:id="@+id/Row12"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:gravity="center">
+
+            <TextView
+
+                android:id="@+id/cell121"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell122"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell123"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell124"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell125"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+            <TextView
+
+                android:id="@+id/cell126"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell127"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell128"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell129"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell1210"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell1211"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+            <TextView
+
+                android:id="@+id/cell1212"
+
+                android:layout_height="fill_parent"
+
+                android:layout_width="0dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+
+                android:textSize="50sp"
+
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:background="@drawable/back"
+
+                android:onClick="cellClick"
+
+                android:clickable="true"/>
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+    <!-- END OF CONTAINER FOR THE ROWS -->
+
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+
+        android:background="#4d4d4d">
+
+        <RadioGroup
+
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:gravity="left"
+
+            android:orientation="horizontal">
+
+            <RadioButton android:id="@+id/radio_X"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:checked="true"
+
+                android:text="X"
+
+                android:onClick="onRadioButtonClicked"/>
+
+            <RadioButton android:id="@+id/radio_O"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:text="O"
+
+                android:onClick="onRadioButtonClicked"/>
+
+        </RadioGroup>
+
+        <TextView
+
+            android:id="@+id/Reset"
+
+            android:layout_weight="1"
+
+            android:layout_width="0dp"
+
+            android:layout_height="fill_parent"
+
+            android:text="reset"
+
+            android:textSize="20sp"
+
+            android:gravity="center"
+
+            android:onClick="resetClick"
+
+            android:clickable="true"/>
+
+        <TextView
+
+            android:id="@+id/thing"
+
+            android:layout_weight="1"
+
+            android:layout_width="0dp"
+
+            android:layout_height="fill_parent"
+
+            android:textSize="20sp"
+
+            android:gravity="center"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
